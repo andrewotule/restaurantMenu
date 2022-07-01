@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="63pt"
+    android:layout_height="wrap_content"
+    android:background="#AF6B06"
+    android:orientation="vertical"
+    android:padding="3pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/ivticketimage"
+            android:src = "@drawable/chicken"/>
+
+        <TextView
+            android:id="@+id/foodticket"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Chicken"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
